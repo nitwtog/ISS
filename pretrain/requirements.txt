@@ -1,0 +1,11 @@
+accelerate==0.12.0
+datasets
+pandas==1.1.5
+transformers
+torch==1.9.0
+nltk>=3.6.2
+rake-nltk==1.0.6
+elasticsearch==7.7.1
+sklearn
+scipy
+tensorboard

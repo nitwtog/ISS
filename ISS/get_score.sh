@@ -1,0 +1,11 @@
+python    train_ft_mlm.py \
+        --model_name bert-base-uncased \
+        --mode tracIn \
+        --task_name chemprot \
+        --from_external large_external.csv \
+        --mlm_weight 1 \
+        --external_bsz 8 \
+        --test_bsz 8 \
+        --max_seq_length 128 \
+        --cuda 0 \
+        --seed 42
